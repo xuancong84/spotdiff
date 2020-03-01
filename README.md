@@ -1,3 +1,16 @@
 # Super Brain 2014: spot difference in two walls of Rubic's cubes
 
-This is the training program for spotting difference between 2 pixel maps
+This is the training program for spotting difference between 2 pixel maps. You can set the number of different pixels between the left and right half and try to spot the difference.
+
+![01](/screenshots/01.png)
+This refers to the TV series "Super Brain" in the session between Zheng Caiqian from China and Franco from Italy: spotting the difference between two walls of Rubix Cubes. It is found that they use the method of "autostereogram vision" to spot the differences between the two images of super-crowded square dots. For example, in the above two images, there are only three square dots which have different colors.
+
+The viewing method is as follows:
+If you are a master in viewing autostereograms, you can either use parallel-view (i.e., use your left eye to look at the left image and use your right eye to look at the right image), or use the cross-view method (i.e., use your left eye to look at the right image and use your right eye to look at the left image). Most people use the cross-view method. It can be done in the following way, draw a straight line from the center of the left image to your right eye, draw another line from the center of the right image to your left eye, look towards the intersection of the two lines (you can use some small objects to assist your eyes), but pull the focal length to the image location instead of the intersection point. Then you will see these two images as three images: left, middle, right; stare at the middle image, try to find the three flashing-colored pixels which appears to be laser anti-counterfeit trademarks (their approximate locations are center-left, left-top, and right-top).
+
+The physical principle is as follows:
+In the physical world, a person's two eyes have slightly different spatial positions, therefore they see slightly different images. The human brain is evolved to be able to analyze the differences between the left-eye image and right-eye image in order to identify the material property of an object's surface and to estimate the spatial distance of the object from the eye. When a person's two eyes see two nearly identical images, the brain will interpret the region of difference as: a smooth and reflective surface with metallic lustre or a laser trademark's surface. This is because these two kinds of surfaces are highly anisotropic in reflecting light, i.e., lights reflected from different angles and positions look very different. For example: a smooth/lustrous surface obeys the principle of specular reflection, the reflected light is highly dependent on the direction of the angle of incidence. Since the two eyes have different spatial positions and they are looking from slightly different directions. Thus, the two images seen by the two eyes will differ greatly because
+
+Therefore, if we make use of our brain's visual information processing capability, we can easily spot the differences between two nearly identical images, for example: like the iphone/ipad game, "FindIt", you can easily pass all the stages using the above method. However, if you want to spot the differences in the kinds of images as shown above which consist of so many tiny pixels, you might need a little more practice.
+
+A bi-lingual version of the theoretical explanation can also be found at https://sites.google.com/site/xuancong84/spot-diff
