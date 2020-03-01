@@ -1,0 +1,7 @@
+.vs/
+ipch/
+Release/
+Debug/
+svcube/
+*.db
+*.sdf
